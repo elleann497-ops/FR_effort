@@ -15,23 +15,23 @@
 FR_effort/
 │
 ├── checkpoints/
-│   ├── ArcFace_checkpoints/                веса модели распознавания лиц
-│   ├── hourglass_learning_log/              журнал обучения Hourglass 
-│   └── hourglass_weights/                  веса модели Hourglass
+│   ├── ArcFace_checkpoints/        # веса модели распознавания лиц
+│   ├── hourglass_learning_log/     # логи обучения Hourglass
+│   └── hourglass_weights/          # веса Hourglass модели
 │
 ├── data/
-│   └── Celebs_subsample_2.csv                файл с атрибутами мини датасета
+│   └── Celebs_subsample_2.csv      # файл с атрибутами мини‑датасета
 │
 ├── examples/
-│   ├── aligned_002219.jpg                    пример выровненного изображения 1
-│   └── aligned_003927.jpg                    пример выровненного изображения 2
+│   ├── aligned_002219.jpg          # пример выровненного изображения 1
+│   └── aligned_003927.jpg          # пример выровненного изображения 2
 │
 ├── notebooks/
 │   ├── .gitkeep
-│   ├── Creation_of_dataset_local.ipynb        этап 1
-│   ├── Hourglass_model_notebook.ipynb          этап 2
-│   └── ArcFace_notebook.ipynb                    этап 3
+│   ├── Creation_of_dataset_local.ipynb   # этап 1 — создание датасета
+│   ├── Hourglass_model_notebook.ipynb    # этап 2 — обучение Hourglass
+│   └── ArcFace_notebook.ipynb            # этап 3 — обучение ArcFace
 │
-└── README.md                                  описание проекта
+└── README.md
 
 
