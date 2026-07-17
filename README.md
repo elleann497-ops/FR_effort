@@ -12,26 +12,8 @@
 
 
 # Архитектура проекта
-FR_effort/
-│
-├── checkpoints/
-│   ├── ArcFace_checkpoints/        # веса модели распознавания лиц
-│   ├── hourglass_learning_log/     # логи обучения Hourglass
-│   └── hourglass_weights/          # веса Hourglass модели
-│
-├── data/
-│   └── Celebs_subsample_2.csv      # файл с атрибутами мини‑датасета
-│
-├── examples/
-│   ├── aligned_002219.jpg          # пример выровненного изображения 1
-│   └── aligned_003927.jpg          # пример выровненного изображения 2
-│
-├── notebooks/
-│   ├── .gitkeep
-│   ├── Creation_of_dataset_local.ipynb   # этап 1 — создание датасета
-│   ├── Hourglass_model_notebook.ipynb    # этап 2 — обучение Hourglass
-│   └── ArcFace_notebook.ipynb            # этап 3 — обучение ArcFace
-│
-└── README.md
+<img width="847" height="616" alt="image" src="https://github.com/user-attachments/assets/968aa2b2-ce90-471e-94fd-0069b9f1c993" />
+
+
 
 
